@@ -18,7 +18,7 @@
 </h1>
 
 <h4 align="center"> 
-	🐱‍👤 Projeto Concluído 📘
+	🐱‍👤 Projeto ainda não Concluído 📘
 </h4>
 
 <p align="center">
