@@ -13,6 +13,7 @@ section {
 }
 
 .card {
+    width: 45rem;
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
@@ -29,3 +30,11 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card {
+        width: 20rem;
+    }
+  }
