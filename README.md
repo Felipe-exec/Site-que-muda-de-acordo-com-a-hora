@@ -18,7 +18,7 @@
 </h1>
 
 <h4 align="center"> 
-	🐱‍👤 Projeto ainda não Concluído 📘
+	🐱‍👤 Projeto Concluído (continuarei a colocar novas imagens 👌) 📘
 </h4>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 ## 💻 Sobre o projeto
 
-🐱‍💻  Este é um site que muda de acordo com a hora que o usuário visita, mostrando na tela uma imagem que gerei no Stable Diffusion (algumas imagens com o model da Lexica), que nada mais é
+🐱‍💻  Este é um site que muda de acordo com a hora que o usuário visita, mostrando na tela uma imagem que gerei no Stable Diffusion (algumas das imagens gerei com o modelo da Lexica), que nada mais é
 que uma Inteligência Artificial que cria paisagens e portraits com base no seu vasto banco de dados e no que é passado em seu prompt.
 
 ---
