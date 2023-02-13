@@ -11,8 +11,8 @@ function load() {
     msg.innerHTML = `${data}`
 
     var msg2 = new Array("A persistência realiza o impossível. - Provérbio Chinês", "O insucesso é apenas uma oportunidade para recomeçar com mais inteligência. - Henry Ford", "Você precisa fazer aquilo que pensa que não é capaz de fazer. - Eleanor Roosevelt", 
-    "Coragem é a resistência ao medo, domínio do medo, e não a ausência do medo. - Mark Twain", "Você tem de agir. E svocê tem que estar disposto a fracassar... se você tem medo de fracassar, não irá muito longe. - Steve Jobs", "Tudo o que você sempre quis está do outro lado do seu medo” – George Addair",
-    "Caia 7 vezes. Levante-se 8 – Provérbio japonês", "A pessoa que diz que não pode ser feito não deve interromper a pessoa que está fazendo – Provérbio chinês", "Nossas vidas começam a terminar no dia em que nos calamos sobre as coisas que importam – Martin Luther King Jr");
+    "Coragem é a resistência ao medo, domínio do medo, e não a ausência do medo. - Mark Twain", "Você tem de agir. E você tem que estar disposto a fracassar... se você tem medo de fracassar, não irá muito longe. - Steve Jobs", "Tudo o que você sempre quis está do outro lado do seu medo – George Addair",
+    "Caia 7 vezes. Levante-se 8. – Provérbio japonês", "A pessoa que diz que não pode ser feito não deve interromper a pessoa que está fazendo. – Provérbio chinês", "Nossas vidas começam a terminar no dia em que nos calamos sobre as coisas que importam – Martin Luther King Jr");
     var randomNum = Math.floor(Math.random() * msg2.length);
     document.getElementById("msg2").src = msg2[randomNum];
 
