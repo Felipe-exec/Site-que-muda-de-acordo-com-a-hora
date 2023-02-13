@@ -37,7 +37,7 @@ que uma Inteligência Artificial que cria paisagens e portraits com base no seu 
 
 ## 🚀 Como visualizar o projeto
 
-Basta acessar o site: https://felipe-exec.github.io/Site-que-muda-de-acordo-com-a-hora/
+Basta acessar o site: https://felipe-exec.github.io/daynight-with-stable-diffusion/
 
 ## 🛠 Tecnologias
 
