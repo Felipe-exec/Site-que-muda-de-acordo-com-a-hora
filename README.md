@@ -59,10 +59,10 @@ Foi utilizado HTML5, CSS3, JavaScript e Bootstrap.
  
  ---
 
-## 📝 Licença
+## 📝 Licença e Créditos
 
 Este projeto está sob a licença [MIT](./LICENSE).
 
-Créditos também ao professor Guanabara do Curso em Vídeo.
+Agredecimentos ao professor Guanabara do Curso em Vídeo.
 
 ---
