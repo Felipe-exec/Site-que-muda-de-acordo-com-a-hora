@@ -1,15 +1,15 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Felipe-exec/Site-que-muda-de-acordo-com-a-hora?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Felipe-exec/daynight-with-stable-diffusion?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Felipe-exec/Site-que-muda-de-acordo-com-a-hora">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Felipe-exec/daynight-with-stable-diffusion">
   
-  <a href="https://github.com/Felipe-exec/Site-que-muda-de-acordo-com-a-hora/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Felipe-exec/Site-que-muda-de-acordo-com-a-hora">
+  <a href="https://github.com/Felipe-exec/daynight-with-stable-diffusion/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Felipe-exec/daynight-with-stable-diffusion">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
    <a href="https://github.com/tgmarinho/README-ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Felipe-exec/Site-que-muda-de-acordo-com-a-hora?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Felipe-exec/daynight-with-stable-diffusion?style=social">
   </a>  
 </p>
 
