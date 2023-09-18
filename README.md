@@ -31,7 +31,7 @@
 ## 💻 Sobre o projeto
 
 🐱‍💻  Este é um site que muda de acordo com a hora que o usuário visita, mostrando na tela uma imagem que gerei no Stable Diffusion (algumas das imagens gerei com o modelo da Lexica), que nada mais é
-que uma Inteligência Artificial que cria paisagens e portraits com base no seu vasto banco de dados e no que é passado em seu prompt.
+que uma Inteligência Artificial que cria paisagens e portraits com base no modelo e no que é passado em seu prompt.
 
 ---
 
