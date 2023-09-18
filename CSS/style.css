@@ -1,23 +1,60 @@
 body {
-    background-color: rgb(126, 52, 245);
+    background: rgb(0,105,226);
+    background: linear-gradient(0deg, rgba(0,105,226,1) 0%, rgba(0,0,0,1) 69%);
+    font-family: cursive;
+    color: whitesmoke;
 }
 
-header {
+h1 {
     margin-top: 1vw;
-    padding: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+header h4 {
+    padding: 5px;
     text-align: center;
 }
 
 section {
     margin: auto;
+    padding: 30px;
+}
+
+
+.flex {
+    display: flex;
+    padding: 30px;
+}
+
+#card-compete-text {
+    padding: 10% 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.little {
+    font-size: 0.4em;
+}
+
+#mid {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white, rgba(255, 255, 255, 0));
+    margin: 20px 0;
 }
 
 .card {
     width: 45rem;
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
     position: relative;
+    color: black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -31,10 +68,17 @@ footer {
     font-style: italic;
 }
 
+.carousel {
+    max-width: 150vh;
+    margin: 0 auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
 
 @media only screen and (max-width: 768px) {
+
     /* For mobile phones: */
     .card {
         width: 20rem;
     }
-  }
+}

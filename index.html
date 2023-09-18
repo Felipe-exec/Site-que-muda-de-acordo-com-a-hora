@@ -9,22 +9,75 @@
     <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon-16x16.png" />
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
 </head>
 
 <body onload="load()">
     <header>
         <h1>⏳ "Time, Dr. Freeman?" ⏳</h1>
+        <h4>Imagens que aparecem de acordo com a hora do dia...</h4>
     </header>
 
-    <section>
-        <div id="img" class="card">
-            <img id="picture" width="400" src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <p id="msg" class="card-text"></p>
-                <p id="msg2" class="card-text">:)</p>
+    <div class="flex">
+        <section>
+            <div id="img" class="card">
+                <img id="picture" width="400" src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p id="msg" class="card-text"></p>
+                    <p id="msg2" class="card-text"></p>
+                </div>
             </div>
+        </section>
+
+        <section id="card-compete-text">
+
+            <h4>Stable Diffusion <img src="https://stablediffusion.fr/sd.png" alt="SD" width="5%"> é um modelo de difusão latente texto-para-imagem capaz de gerar imagens fotorrealistas a partir de qualquer entrada de texto, 
+            promovendo uma liberdade autônoma para criar imagens incríveis, permitindo que bilhões de pessoas criem arte impressionante em questão de segundos.</h4>
+            <p>- Veja o <a href="https://github.com/CompVis/stable-diffusion" target="_blank">Github do projeto</a>.</p>
+            <p>- Dê uma olhada no <a href="https://stablediffusionweb.com" target="_blank">Site</a>.</p>
+
+            <hr>
+
+            <h4>O Civitai <img src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/gtxrcmtsvpjjevozblfa" width="5%" alt=""> é um espaço destinado às pessoas interessadas em inteligência artificial (IA) para compartilharem e 
+                dialogarem sobre as estratégias e recursos que estão empregando para adaptar e aprimorar as gerações de IA. </h4>
+            <p>- Dê uma olhada no <a href="https://civitai.com" target="_blank">Site</a></p>
+
+            <hr>
+
+            <h4>Aqui vai um tutorial de como gerar imagens com o SD</h4>
+            <p>- Tutorial no youtube do <a href="https://www.youtube.com/watch?v=EmsIjlR23Vo" target="_blank">Luigi Alquimista - Arts</a>.</p>
+            
+        </section>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div id="mid">
+        <h1>GALERIA DE IMAGENS<span class="little">v1.0</span></h1>
+        <p>Essas imagens foram geradas utilizando Stable Diffusion e modelos do CivitAI!</p>    
+    </div>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <!-- As imagens serão inseridas aqui dinamicamente -->
         </div>
-    </section>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+
 
     <footer>
         <p>&copy; Felipe Sacramento</p>

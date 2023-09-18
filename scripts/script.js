@@ -6,8 +6,6 @@ function load() {
     var data = new Date()
     var hour = data.getHours()
 
-
-
     msg.innerHTML = `${data}`
 
     var msg2 = new Array("A persistência realiza o impossível. - Provérbio Chinês", "O insucesso é apenas uma oportunidade para recomeçar com mais inteligência. - Henry Ford", "Você precisa fazer aquilo que pensa que não é capaz de fazer. - Eleanor Roosevelt", 
@@ -20,7 +18,7 @@ function load() {
     
 
     if (hour >= 6 && hour < 12) {
-        var day = new Array("assets/Dia/day1(model lexica aperture v2).jpg", "assets/Dia/day2.jpg", "assets/Dia/day3.jpg", "assets/Dia/day4(model lexica aperture v2).jpg", "assets/Dia/day5(model lexica aperture v2).jpg");
+        var day = new Array("assets/Dia/day1(model lexica aperture v2).jpg", "assets/Dia/day2.jpg", "assets/Dia/day3.jpg", "assets/Dia/day4(model lexica aperture v2).jpg", "assets/Dia/day5(model lexica aperture v2).jpg", "assets/Dia/day6.jpg");
         var randomNum = Math.floor(Math.random() * day.length);
         document.getElementById("picture").src = day[randomNum];
     } 
@@ -34,4 +32,25 @@ function load() {
         var randomNum = Math.floor(Math.random() * night.length);
         document.getElementById("picture").src = night[randomNum];
     }
+
+
+    // Localize a pasta que contém as imagens
+    const pastaImagens = 'assets/imagens SD/';
+
+    // Array de nomes de arquivos de imagem
+    const imagens = ['00015.png', '00016.png', '00018.png', '00019.png', '00020.png', '00022.png', '00023.png', '00024.png', '00026.png', '00027.png', '00030.png', '00031.png', '00032.png'];
+
+    // Seletor do elemento que conterá as imagens do carrossel
+    const carouselInner = $('.carousel-inner');
+
+    // Itera sobre as imagens e as insere no carrossel
+    imagens.forEach(function(imagem, index) {
+        const activeClass = index === 0 ? 'active' : ''; // Define a classe 'active' para o primeiro item
+        const imgElement = `
+            <div class="carousel-item ${activeClass}">
+                <img class="d-block w-100" src="${pastaImagens}${imagem}" alt="Imagem ${index + 1}">
+            </div>
+        `;
+        carouselInner.append(imgElement);
+    });
 }
