@@ -38,7 +38,7 @@ function load() {
     const pastaImagens = 'assets/imagens SD/';
 
     // Array de nomes de arquivos de imagem
-    const imagens = ['00015.png', '00016.png', '00018.png', '00019.png', '00020.png', '00022.png', '00023.png', '00024.png', '00026.png', '00027.png', '00030.png', '00031.png', '00032.png'];
+    const imagens = ['00015.png', '00016.png', '00017.png', '00018.png', '00019.png', '00020.png', '00022.png', '00023.png', '00024.png', '00026.png', '00027.png', '00030.png', '00031.png', '00032.png', '00034.png'];
 
     // Seletor do elemento que conterá as imagens do carrossel
     const carouselInner = $('.carousel-inner');
